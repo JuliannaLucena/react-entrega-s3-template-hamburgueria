@@ -1,0 +1,20 @@
+.btn{
+    padding: 0.80rem 0.80rem;
+    border: transparent;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+
+    background-color: var(--color-primary);
+    color: var(--grey-0);
+  
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.135rem;
+
+    .btn:hover{
+        background-color: var(--grey-300);
+
+    }
+}
+

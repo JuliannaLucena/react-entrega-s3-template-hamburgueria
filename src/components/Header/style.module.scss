@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-left: 1.8rem;
+
+  div {
+    display: flex;
+  }
+}
+
+.buttonCart {
+  background-color: var(--grey-300);
+  border: none;
+  background: none;
+  color: var(--grey-300);
+  position: relative;
+
+  span {
+    background-color: var(--color-primary);
+    position: fixed;
+    top: 1rem;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    color: var(--grey-0);
+  }
+}
